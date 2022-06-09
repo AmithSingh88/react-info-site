@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&family=Roboto:wght@300&family=Sedgwick+Ave&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #282d35;
+}
+
+.navbar{
+    display: flex;
+    background-color: #212222;
+    align-items: center;
+    color: #d3e6f9;
+    padding: 31px 26px;
+}
+
+.navbar img{
+    height: 30px;
+    margin-right: 10px;
+    
+}
+
+.navbar h3{
+    font-size: 23px;
+    font-weight: 700;
+    color: #61DAFB;
+    letter-spacing: -0.05rem;
+    margin-right:auto ; 
+     
+}
+
+.navbar h4{
+    font-size: 16px;
+}
+.main{
+    height: 450px;
+    color:#FFFFFF;
+    padding: 27px 37px;
+    background-image: url('./assets/images/reactjs-icon2.svg');
+    background-repeat: no-repeat;
+    background-position: right 107px;
+}
+
+.main h1{
+    font-size: 39px;
+    font-weight: 700;
+    letter-spacing: -0.2.5rem;
+    /* word-spacing: -1rem; */
+}
+
+
+ul{
+    padding-top:41px;
+    width: 390px;
+}
+
+ul li{
+    font-size: 16px;
+    line-height: 1.9rem;
+    font-weight: 200;
+    /* padding: 10px 20px; */
+}
+
+ul li::marker{
+    color: #61DAFB;
+    font-size: 1.5rem;
+}
+
+
+
