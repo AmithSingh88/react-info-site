@@ -4,12 +4,14 @@ import Navbar from './components/Navbar';
 
 
 const App = function () {
+
     return (
         <div>
             <Navbar />
             <Main />
         </div>
     )
+
 }
 
 export default App;
